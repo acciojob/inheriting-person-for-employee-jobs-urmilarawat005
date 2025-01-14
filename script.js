@@ -33,3 +33,6 @@ person.greet();  // Expected output: Hello, my name is Alice, I am 25 years old.
 // Employee class ka object create karte hain
 const employee = new Employee("Bob", 30, "Manager");
 employee.jobGreet();  // Expected output: Hello, my name is Bob, I am 30 years old, and my job title is Manager.
+
+window.Person = Person;
+window.employee = employee;
